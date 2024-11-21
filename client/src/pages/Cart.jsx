@@ -132,6 +132,7 @@ const Delivery = styled.div`
 `;
 
 const Cart = () => {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
   const [reload, setReload] = useState(false);
