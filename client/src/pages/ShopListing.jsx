@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "../components/cards/ProductCard";
 import styled from "styled-components";
-import { category, filter } from "../utils/data";
+import {  filter } from "../utils/data";
 import { CircularProgress, Slider } from "@mui/material";
 import { getAllProducts } from "../api";
 

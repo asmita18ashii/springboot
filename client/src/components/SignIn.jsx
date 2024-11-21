@@ -6,7 +6,6 @@ import { UserSignIn } from "../api";
 import { useDispatch } from "react-redux";
 import { loginSuccess } from "../redux/reducers/userSlice";
 import { openSnackbar } from "../redux/reducers/snackbarSlice";
-import { redirect } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
