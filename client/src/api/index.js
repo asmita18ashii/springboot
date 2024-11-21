@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://krist-kiran-183ec9a9b172.herokuapp.com/api/",
+  baseURL: "https://ecommarce-zh3j.onrender.com/api/",
 });
 
 export const UserSignUp = async (data) => await API.post("/user/signup", data);
